@@ -1422,7 +1422,7 @@ with gr.Blocks(title="RVC WebUI") as app:
                         )
                         input_audio0 = gr.Textbox(
                             label=i18n("输入待处理音频文件路径(默认是正确格式示例)"),
-                            value="/content/working_dir/todo-songs/clip1.wav",
+                            value="/content/RBVC_test/working_dir/todo-songs/clip1.wav",
                         )
                         f0method0 = gr.Radio(
                             label=i18n(
@@ -1604,7 +1604,7 @@ with gr.Blocks(title="RVC WebUI") as app:
                     with gr.Column():
                         dir_input = gr.Textbox(
                             label=i18n("输入待处理音频文件夹路径(去文件管理器地址栏拷就行了)"),
-                            value="/content/working_dir/todo-songs/",
+                            value="/content/RBVC_test/working_dir/todo-songs/",
                         )
                         inputs = gr.File(
                             file_count="multiple", label=i18n("也可批量输入音频文件, 二选一, 优先读文件夹")
@@ -1656,7 +1656,7 @@ with gr.Blocks(title="RVC WebUI") as app:
                     with gr.Column():
                         dir_wav_input = gr.Textbox(
                             label=i18n("输入待处理音频文件夹路径"),
-                            value="/content/working_dir/todo-songs/",
+                            value="/content/RBVC_test/working_dir/todo-songs/",
                         )
                         wav_inputs = gr.File(
                             file_count="multiple", label=i18n("也可批量输入音频文件, 二选一, 优先读文件夹")
